@@ -7,7 +7,7 @@ class TestMyFunc(unittest.TestCase):
         pass
  
     def test_increment_one_1(self): 
-        self.assertEqual(  multliply_by_two(4), 8)
+        self.assertEqual(  multliply_by_two(12), 24)
   
     def test_increment_one_2(self):
         self.assertEqual( my_functions. multliply_by_ten(10), 100)
