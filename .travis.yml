@@ -16,3 +16,12 @@ script:
   
 after_success:
  - codecov --token=c74dd386-73e2-4ba9-95d5-917823961198 # upload coverage report to codecov.io
+
+deploy:
+  provider: s3
+  access_key_id: AKIAJYJTUTDICTE7UMSA
+  secret_access_key:
+    secure: XesCc1+HXXogD0oRssNn0yxtoo/dferhjfd
+  bucket: https://cps847group19.s3.amazonaws.com/index.html
+  local-dir: ./index.html
+  region: us-east-1
