@@ -25,3 +25,4 @@ deploy:
   bucket: https://cps847group19.s3.amazonaws.com
   local-dir: s3_deploy/html_file
   region: us-east-1
+  skip_cleanup: true
