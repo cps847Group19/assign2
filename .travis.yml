@@ -19,9 +19,8 @@ after_success:
 
 deploy:
   provider: s3
-  access_key_id: AKIAJYJTUTDICTE7UMSA
-  secret_access_key:
-    secure: XesCc1+HXXogD0oRssNn0yxtoo/dferhjfd
+  access_key_id: AKIAIINTJMOHJH3BM2WA
+  secret_access_key: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
   bucket: https://cps847group19.s3.amazonaws.com/index.html
   local-dir: ./index.html
   region: us-east-1
