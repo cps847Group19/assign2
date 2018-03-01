@@ -25,3 +25,4 @@ deploy:
   local-dir: s3_deploy/html_file
   region: $AWS_DEFAULT_REGION
   skip_cleanup: true
+  acl: public_read
