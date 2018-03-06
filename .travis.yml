@@ -15,7 +15,7 @@ script:
   - coverage run ./test.py # command to run code coverage
   
 after_success:
- - codecov --token=c74dd386-73e2-4ba9-95d5-917823961198 # upload coverage report to codecov.io
+ - codecov --token=$COV_TOKEN # upload coverage report to codecov.io
 
 deploy:
   provider: s3
